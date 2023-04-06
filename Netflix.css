@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+   background-image: url(IN-en-20230327-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+}  
+ 
+.header{
+    margin: 10 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.logo{
+    height: 80px;
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+    
+}
+button{
+    padding: 8px 10px;
+    background-color: rgba(0, 0, 0, 0.627);
+    color: white;
+    border-radius: 4px;
+    border: unset;
+    border: 1px solid grey;
+}
+span{
+    margin: 5px;
+}
+.signin{
+    padding: 6px 12px;
+    background-color: #e50914;
+    border-radius: 4px;
+    margin-left: 15px;
+    
+}
+.signin:hover{
+    background-color: #aa0810;
+}
+.signin a{
+    text-decoration: none;
+    color: white;
+}
+.headings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 200px auto;
+    
+}
+.headings h1{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.headings p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.data{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.data input{
+    width: 30%;
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.518);
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn{
+    padding: 15px 20px;
+    background-color: #e50914;
+    border: unset;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn:hover{
+    background-color: #aa0810;
+}
+.section1{
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    
+}
+.text h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 15px;
+}
+.text p{
+    font-size: 20px;
+    color: white;
+}
+.image img{
+    width: 100%;
+    height: 350px;
+}
+.section2{
+    background-color: #000;
+    padding: 50px 0;
+}
+.section2 h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+.questions{
+    width: 80%;
+    margin: auto;
+}
+.que{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 20px;
+    margin: 20px;
+}
+.que h2{
+    color: white;
+}
+.que:hover{
+    background-color: #444343;
+}
+.section2 p{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+footer{
+    background-color: #000;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+.footer p{
+    color: white;
+}
+
+.foot{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 90px;
+    margin: 0 0 50px 0;
+}
+.questions p:hover{
+    background-color: #262525;
+}
+.list{
+    display: flex;
+}
+.list ul{
+    list-style: none;
+}
+.list ul a{
+    margin: 0 244px 0 0;
+}
+.list ul li{
+    padding: 10px 0;
+}
+.footer p,.footer a{
+    color: #cbcbcb;
+}
+#foot{
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 8px 18px;
+    background-color: #00000000;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.center a:hover{
+    background-color: #b20810;
+}
+.sign a:hover{
+    background-color: #b20810;
+}
+
+
+
+
+
