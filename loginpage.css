@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-image: url(loginpage\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.header{
+    padding: 20px 50px;
+}
+.logo img{
+    height: 60px;
+}
+.formdata{
+    margin: 50px auto;
+    width: 400px;
+    padding: 50px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.formdata h1{
+    color: white;
+    padding-bottom: 20px;
+}
+form{
+    text-align: center;
+}
+.signin{
+    padding: 15px 20px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: unset;
+    background-color: #333;
+    color: white;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.help a{
+    color: #808080;;
+    text-decoration: none;
+}
+
+button{
+    width: 100%;
+    padding: 15px 20px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 8px;
+    background-color: #e50914;
+    border: unset;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.undertext{
+    color: #808080;
+    margin: 50px 0;
+}
+.undertext p{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.undertext a{
+    color: white;
+    text-decoration: none;
+}
+span{
+    color: #808080;
+}
+footer{
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.footer{
+    margin: 0 300px;
+}
+.footerul{
+    display: flex;
+    padding: 30px 0;
+}
+.footerul li{
+    padding-right: 40px;
+}
+.footer p{
+    color: #808080;
+}
+.footer a{
+    color: #808080;
+    text-decoration: none;
+}
+select{
+    padding: 10px 20px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    color: #808080;
+}
+
+
+
